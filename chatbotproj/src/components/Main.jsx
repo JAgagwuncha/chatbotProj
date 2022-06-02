@@ -3,6 +3,11 @@ import React from 'react';
 
 
 const Main = () => {
+    let saveData = () =>{
+        localStorage.setItem('Object 1', "test object");
+      }
+
+    
     return (
     <ChatBot
       steps={[
